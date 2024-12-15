@@ -1,0 +1,112 @@
+[
+    {
+        "id": "q1",
+        "question": "Quel est le seul mammifère capable de voler ?",
+        "answers": [
+            { "id": "q1_a1", "text": "La chauve-souris", "correct": true },
+            { "id": "q1_a2", "text": "L'écureuil volant", "correct": false },
+            { "id": "q1_a3", "text": "Le colibri", "correct": false }
+        ],
+        "level": 1,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q2",
+        "question": "Quelle est la couleur du sang des homards ?",
+        "answers": [
+            { "id": "q2_a1", "text": "Bleue", "correct": true },
+            { "id": "q2_a2", "text": "Rouge", "correct": false },
+            { "id": "q2_a3", "text": "Verte", "correct": false }
+        ],
+        "level": 1,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q3",
+        "question": "Quelle est la capitale la plus haute du monde ?",
+        "answers": [
+            { "id": "q3_a1", "text": "La Paz", "correct": true },
+            { "id": "q3_a2", "text": "Katmandou", "correct": false },
+            { "id": "q3_a3", "text": "Quito", "correct": false }
+        ],
+        "level": 2,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q4",
+        "question": "Quelle est la durée de vie moyenne d'un papillon adulte ?",
+        "answers": [
+            { "id": "q4_a1", "text": "2 à 4 semaines", "correct": true },
+            { "id": "q4_a2", "text": "6 mois", "correct": false },
+            { "id": "q4_a3", "text": "1 an", "correct": false }
+        ],
+        "level": 2,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q5",
+        "question": "Quel élément chimique porte le symbole Hg ?",
+        "answers": [
+            { "id": "q5_a1", "text": "Le mercure", "correct": true },
+            { "id": "q5_a2", "text": "Le manganèse", "correct": false },
+            { "id": "q5_a3", "text": "Le magnésium", "correct": false }
+        ],
+        "level": 3,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q6",
+        "question": "Quelle civilisation a construit Machu Picchu ?",
+        "answers": [
+            { "id": "q6_a1", "text": "Les Incas", "correct": true },
+            { "id": "q6_a2", "text": "Les Mayas", "correct": false },
+            { "id": "q6_a3", "text": "Les Aztèques", "correct": false }
+        ],
+        "level": 3,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q7",
+        "question": "Quel est le nom de l'étoile la plus proche du Soleil ?",
+        "answers": [
+            { "id": "q7_a1", "text": "Proxima du Centaure", "correct": true },
+            { "id": "q7_a2", "text": "Sirius", "correct": false },
+            { "id": "q7_a3", "text": "Bételgeuse", "correct": false }
+        ],
+        "level": 4,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q8",
+        "question": "Quel est le plus grand désert de sable du monde ?",
+        "answers": [
+            { "id": "q8_a1", "text": "Le Sahara", "correct": true },
+            { "id": "q8_a2", "text": "Le Kalahari", "correct": false },
+            { "id": "q8_a3", "text": "Le désert de Gobi", "correct": false }
+        ],
+        "level": 4,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q9",
+        "question": "Quel est le métal le plus rare sur Terre ?",
+        "answers": [
+            { "id": "q9_a1", "text": "Le rhodium", "correct": true },
+            { "id": "q9_a2", "text": "Le platine", "correct": false },
+            { "id": "q9_a3", "text": "L'or", "correct": false }
+        ],
+        "level": 5,
+        "alreadyAsked": false
+    },
+    {
+        "id": "q10",
+        "question": "Quel est le point le plus profond connu sur Terre ?",
+        "answers": [
+            { "id": "q10_a1", "text": "La fosse des Mariannes", "correct": true },
+            { "id": "q10_a2", "text": "La fosse de Tonga", "correct": false },
+            { "id": "q10_a3", "text": "La fosse d'Atacama", "correct": false }
+        ],
+        "level": 5,
+        "alreadyAsked": false
+    }
+]
