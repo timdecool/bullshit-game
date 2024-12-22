@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import QuizView from '@/views/QuizView.vue'
-import StarterView from '@/views/StarterView.vue'
+import EndView from '@/views/EndView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,9 +17,9 @@ const router = createRouter({
       component: QuizView
     },
     {
-      path: '/start',
-      name: 'start',
-      component: StarterView
+      path: '/end',
+      name: 'end',
+      component: EndView
     }
   ],
 })

@@ -1,6 +1,10 @@
 <script setup>
-  import { computed, ref } from 'vue';
-  import PlayerId from './PlayerId.vue';
+  import router from '@/router';
+import PlayerId from './PlayerId.vue';
+  import { useGameStore } from '@/stores/game';
+  import { usePlayerStore } from '@/stores/player';
+  const game = useGameStore()
+  const playerStore = usePlayerStore()
 
   const props = defineProps({
     question: {
@@ -12,42 +16,39 @@
       required: true
     }
   })
-
-  const revealedOutcome = ref(false)
-  const selectedAnswer = ref(0)
-
-  function selectAnswer(id) {
-    selectedAnswer.value = id
-  }
-
-  function revealOutcome() {
-    revealedOutcome.value = !revealedOutcome.value
-  }
-
 </script>
 
 <template>
-  <section class="flex items-start justify-center gap-4 w-full">
+  <section class="flex items-start justify-center gap-4 w-full select-none">
 
-    <div class="flex flex-col items-center bg-slate-50 p-10 py-5 rounded w-1/2 min-w-96 text-center shadow-lg">
-      <div class="flex w-full justify-between items-center mb-10">
-        <div>Question {{ question.level }}</div>
+    <div class="flex flex-col items-center bg-slate-100 p-10 py-5 rounded w-full text-center shadow-lg">
+      <div class="flex w-full justify-between items-start mb-10">
+        <div>Question {{ props.question.level }}</div>
         <player-id :player="player" big />
-        <div>{{ question.level * 100 }} points</div>
+        <div>{{ props.question.level * 100 }} points</div>
       </div>
 
-      <h1 class="text-lg font-bold mb-5">{{ question.question }}</h1>
+      <h1 class="text-xl font-bold mb-5">{{ question.question }}</h1>
 
-      <div v-for="answer in question.answers" :key="answer.id" class="w-full">
+      <div v-for="answer in props.question.answers" :key="answer.id" class="w-full">
         <div
-          class="py-3 my-2 w-full rounded cursor-pointer text-lg transition-all shadow-md"
-          :class="[revealedOutcome ? answer.correct ? 'bg-green-500':'bg-red-500':answer.id == selectedAnswer ? 'bg-indigo-300':'bg-indigo-100 hover:bg-indigo-200']"
-          @click="selectAnswer(answer.id)"
+          class="py-3 my-2 w-full rounded text-lg transition-all shadow-md font-medium"
+          :class="[game.currentPhase === 2 ? answer.correct ? 'bg-emerald-400':'bg-indigo-100':answer.id == game.currentAnswer ? 'bg-indigo-300':game.currentPhase === 0 ? 'bg-indigo-100 hover:bg-indigo-200 cursor-pointer':'bg-indigo-100']"
+          @click="game.selectAnswer(answer.id)"
         >
           {{ answer.text }}
         </div>
       </div>
-      <div class="py-2 mt-5 w-full rounded cursor-pointer bg-slate-200 w-full" @click="revealOutcome()">Révéler la réponse</div>
+      <div class="py-2 mt-5 rounded bg-slate-200 w-full" @click="game.revealAnswer()" v-if="game.currentPhase < 2" :class="[game.currentPhase < 1 ? 'text-neutral-300':'text-neutral-900 cursor-pointer']">
+        Révéler la réponse
+      </div>
+      <div class="py-2 mt-5 rounded bg-slate-200 text-neutral-900 w-full cursor-pointer" @click="router.push('/end')" v-else-if="(game.isRoundLost || game.currentLevel === 5) && playerStore.getNumberOfRemainingPlayers === 0">
+        Résultats finaux
+      </div>
+      <div class="py-2 mt-5 rounded bg-slate-200 text-neutral-900 w-full cursor-pointer" @click="game.pickNextQuestion()" v-else>
+        {{ game.isRoundLost || game.currentLevel === 5 ? 'Prochaine manche':'Prochaine question'}}
+      </div>
+
 
     </div>
 
