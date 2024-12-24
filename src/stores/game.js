@@ -31,7 +31,7 @@ export const useGameStore = defineStore('game', () => {
       currentLevel.value++
     }
 
-    const pickedQuestions = questions.value.filter(question => question.level === currentLevel.value && !question.alreadyAsked)
+    const pickedQuestions = questions.value.filter(question => !question.alreadyAsked)
     if(pickedQuestions.length > 0) {
       const question = pickedQuestions[Math.floor(Math.random() * pickedQuestions.length)]
       currentQuestion.value = question
@@ -78,5 +78,5 @@ export const useGameStore = defineStore('game', () => {
 
   }
 
-  return { importQuestions, pickNextQuestion, resetGame, questions, currentQuestion, currentAnswer, selectAnswer, currentPhase, revealAnswer, isRoundLost }
+  return { importQuestions, pickNextQuestion, resetGame, questions, currentQuestion, currentAnswer, currentLevel, selectAnswer, currentPhase, revealAnswer, isRoundLost }
 })

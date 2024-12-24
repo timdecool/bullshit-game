@@ -1,112 +1,254 @@
 [
     {
         "id": "q1",
-        "question": "Quel est le seul mammifère capable de voler ?",
+        "question": "Quel est le nom scientifique de la plus grande espèce connue de ver marin géant ?",
         "answers": [
-            { "id": "q1_a1", "text": "La chauve-souris", "correct": true },
-            { "id": "q1_a2", "text": "L'écureuil volant", "correct": false },
-            { "id": "q1_a3", "text": "Le colibri", "correct": false }
+            { "id": "q1_a1", "text": "Eunice aphroditois", "correct": true },
+            { "id": "q1_a2", "text": "Lumbricus maximus", "correct": false },
+            { "id": "q1_a3", "text": "Annelida colossus", "correct": false }
         ],
-        "level": 1,
-        "alreadyAsked": false
+        "level": 3,
+        "already_asked": false,
+        "explanation": "Eunice aphroditois, également connu sous le nom de 'ver Bobbit', peut atteindre une longueur de 3 mètres."
     },
     {
         "id": "q2",
-        "question": "Quelle est la couleur du sang des homards ?",
+        "question": "Quelle espèce d'oiseau construit des nids composés de centaines d'entrées pour tromper les prédateurs ?",
         "answers": [
-            { "id": "q2_a1", "text": "Bleue", "correct": true },
-            { "id": "q2_a2", "text": "Rouge", "correct": false },
-            { "id": "q2_a3", "text": "Verte", "correct": false }
+            { "id": "q2_a1", "text": "Le tisserin à dos rouge", "correct": false },
+            { "id": "q2_a2", "text": "Le mainate des collines", "correct": false },
+            { "id": "q2_a3", "text": "Le républicain social", "correct": true }
         ],
-        "level": 1,
-        "alreadyAsked": false
+        "level": 5,
+        "already_asked": false,
+        "explanation": "Le républicain social construit d'immenses nids communautaires qui peuvent héberger jusqu'à 500 oiseaux."
     },
     {
         "id": "q3",
-        "question": "Quelle est la capitale la plus haute du monde ?",
+        "question": "Quel film détient le record du plus grand nombre de figurants jamais utilisés ?",
         "answers": [
-            { "id": "q3_a1", "text": "La Paz", "correct": true },
-            { "id": "q3_a2", "text": "Katmandou", "correct": false },
-            { "id": "q3_a3", "text": "Quito", "correct": false }
+          { "id": "q3_a1", "text": "Gandhi", "correct": true },
+          { "id": "q3_a2", "text": "Le Seigneur des Anneaux : Le Retour du Roi", "correct": false },
+          { "id": "q3_a3", "text": "Ben-Hur", "correct": false }
         ],
-        "level": 2,
-        "alreadyAsked": false
+        "level": 4,
+        "already_asked": false,
+        "explanation": "Le film 'Gandhi' (1982) a utilisé plus de 300 000 figurants lors de la scène des funérailles de Gandhi."
     },
     {
         "id": "q4",
-        "question": "Quelle est la durée de vie moyenne d'un papillon adulte ?",
+        "question": "Quel est le nom de l'exoplanète dont l'atmosphère est composée de verre en fusion soufflé par des vents supersoniques ?",
         "answers": [
-            { "id": "q4_a1", "text": "2 à 4 semaines", "correct": true },
-            { "id": "q4_a2", "text": "6 mois", "correct": false },
-            { "id": "q4_a3", "text": "1 an", "correct": false }
+            { "id": "q4_a1", "text": "Kepler-22b", "correct": false },
+            { "id": "q4_a2", "text": "HD 189733b", "correct": true },
+          { "id": "q4_a3", "text": "Proxima Centauri b", "correct": false }
         ],
-        "level": 2,
-        "alreadyAsked": false
+        "level": 4,
+        "already_asked": false,
+        "explanation": "HD 189733b est une exoplanète où les vents soufflent à plus de 8000 km/h, transportant des particules de verre fondu."
     },
     {
         "id": "q5",
-        "question": "Quel élément chimique porte le symbole Hg ?",
+        "question": "Quel écrivain célèbre avait un perroquet empaillé nommé Grip ?",
         "answers": [
-            { "id": "q5_a1", "text": "Le mercure", "correct": true },
-            { "id": "q5_a2", "text": "Le manganèse", "correct": false },
-            { "id": "q5_a3", "text": "Le magnésium", "correct": false }
+            { "id": "q5_a1", "text": "Mark Twain", "correct": false },
+            { "id": "q5_a2", "text": "Victor Hugo", "correct": false },
+            { "id": "q5_a3", "text": "Charles Dickens", "correct": true }
         ],
-        "level": 3,
-        "alreadyAsked": false
+        "level": 5,
+        "already_asked": false,
+        "explanation": "Charles Dickens possédait un perroquet empaillé, Grip, qui a inspiré Poe pour 'Le Corbeau'."
     },
     {
         "id": "q6",
-        "question": "Quelle civilisation a construit Machu Picchu ?",
+        "question": "Quel pays a produit un billet de banque d'un milliard de milliards d'unités lors de son hyperinflation ?",
         "answers": [
-            { "id": "q6_a1", "text": "Les Incas", "correct": true },
-            { "id": "q6_a2", "text": "Les Mayas", "correct": false },
-            { "id": "q6_a3", "text": "Les Aztèques", "correct": false }
+            { "id": "q6_a1", "text": "Venezuela", "correct": false },
+            { "id": "q6_a2", "text": "Zimbabwe", "correct": true },
+          { "id": "q6_a3", "text": "Laos", "correct": false }
         ],
         "level": 3,
-        "alreadyAsked": false
+        "already_asked": false,
+        "explanation": "En 2008, le Zimbabwe a connu une hyperinflation si extrême qu'un billet de 10^21 dollars a été imprimé."
     },
     {
         "id": "q7",
-        "question": "Quel est le nom de l'étoile la plus proche du Soleil ?",
+        "question": "Qu'a interdit Singapour en 1992 ?",
         "answers": [
-            { "id": "q7_a1", "text": "Proxima du Centaure", "correct": true },
-            { "id": "q7_a2", "text": "Sirius", "correct": false },
-            { "id": "q7_a3", "text": "Bételgeuse", "correct": false }
+            { "id": "q7_a1", "text": "Les jeux d'argent", "correct": false },
+            { "id": "q7_a2", "text": "Les chewing-gums", "correct": true },
+            { "id": "q7_a3", "text": "Les vélos électriques", "correct": false }
         ],
-        "level": 4,
-        "alreadyAsked": false
+        "level": 1,
+        "already_asked": false,
+        "explanation": "Singapour a interdit la vente de chewing-gums en 1992 pour éviter qu'ils soient jetés sur la voie publique."
     },
     {
         "id": "q8",
-        "question": "Quel est le plus grand désert de sable du monde ?",
+        "question": "Qu'a fait l'empereur Caligula en déclarant la guerre à Neptune ?",
         "answers": [
-            { "id": "q8_a1", "text": "Le Sahara", "correct": true },
-            { "id": "q8_a2", "text": "Le Kalahari", "correct": false },
-            { "id": "q8_a3", "text": "Le désert de Gobi", "correct": false }
+            { "id": "q8_a1", "text": "Il a fait construire des navires en marbre", "correct": false },
+            { "id": "q8_a2", "text": "Il a demandé à ses soldats de ramasser des coquillages", "correct": true },
+            { "id": "q8_a3", "text": "Il a ordonné qu'on lance des pierres dans la mer", "correct": false }
         ],
         "level": 4,
-        "alreadyAsked": false
+        "already_asked": false,
+        "explanation": "Caligula aurait symboliquement 'vaincu' Neptune en ordonnant à ses soldats de ramasser des coquillages sur le rivage."
     },
     {
         "id": "q9",
-        "question": "Quel est le métal le plus rare sur Terre ?",
+        "question": "Quelle coutume était associée aux Vikings lorsqu'ils signaient un accord important ?",
         "answers": [
-            { "id": "q9_a1", "text": "Le rhodium", "correct": true },
-            { "id": "q9_a2", "text": "Le platine", "correct": false },
-            { "id": "q9_a3", "text": "L'or", "correct": false }
+            { "id": "q9_a1", "text": "Boire du sang dans une corne", "correct": true },
+            { "id": "q9_a2", "text": "Allumer un grand feu", "correct": false },
+            { "id": "q9_a3", "text": "Creuser une tombe symbolique", "correct": false }
         ],
-        "level": 5,
-        "alreadyAsked": false
+        "level": 3,
+        "already_asked": false,
+        "explanation": "Les Vikings avaient pour coutume de boire symboliquement du sang mêlé à de l'hydromel pour sceller un accord."
     },
     {
         "id": "q10",
-        "question": "Quel est le point le plus profond connu sur Terre ?",
+        "question": "Pourquoi les montres à gousset ont-elles souvent une 'chaîne de souverain' attachée ?",
         "answers": [
-            { "id": "q10_a1", "text": "La fosse des Mariannes", "correct": true },
-            { "id": "q10_a2", "text": "La fosse de Tonga", "correct": false },
-            { "id": "q10_a3", "text": "La fosse d'Atacama", "correct": false }
+            { "id": "q10_a1", "text": "Pour leur donner un aspect royal", "correct": false },
+            { "id": "q10_a2", "text": "Pour équilibrer le poids du gousset", "correct": false },
+            { "id": "q10_a3", "text": "Pour éviter de les perdre", "correct": true }
         ],
-        "level": 5,
-        "alreadyAsked": false
-    }
+        "level": 1,
+        "already_asked": false,
+        "explanation": "La chaîne de souverain servait à sécuriser la montre et éviter qu'elle ne soit perdue ou volée."
+    },
+    {
+        "id": "q11",
+        "question": "Dans quel film entend-on pour la première fois le célèbre cri de Wilhelm ?",
+        "answers": [
+            { "id": "q11_a1", "text": "Le Jour où la Terre s'arrêta (1951)", "correct": false },
+            { "id": "q11_a2", "text": "Un tramway nommé Désir (1951)", "correct": false },
+            { "id": "q11_a3", "text": "Les Aventures du Capitaine Wyatt (1951)", "correct": true }
+        ],
+        "level": 4,
+        "already_asked": false,
+        "explanation": "Le cri de Wilhelm est utilisé pour la première fois dans 'Les Aventures du Capitaine Wyatt', mais il est devenu célèbre grâce à sa réutilisation dans de nombreux films par la suite."
+    },
+    {
+        "id": "q12",
+        "question": "Quel acteur détient le record du plus grand nombre de morts à l'écran ?",
+        "answers": [
+            { "id": "q12_a1", "text": "Danny Trejo", "correct": true },
+            { "id": "q12_a2", "text": "Sean Bean", "correct": false },
+            { "id": "q12_a3", "text": "Christopher Lee", "correct": false }
+        ],
+        "level": 4,
+        "already_asked": false,
+        "explanation": "Danny Trejo détient le record du plus grand nombre de morts à l'écran, dépassant Sean Bean et Christopher Lee."
+    },
+    {
+        "id": "q13",
+        "question": "Quel est le nom du premier jeu vidéo en monde ouvert ?",
+        "answers": [
+          { "id": "q13_a1", "text": "Grand Theft Auto", "correct": false },
+          { "id": "q13_a2", "text": "Elite", "correct": true },
+          { "id": "q13_a3", "text": "The Elder Scrolls II: Daggerfall", "correct": false }
+        ],
+        "level": 4,
+        "already_asked": false,
+        "explanation": "*Elite* (1984) a été le premier jeu à proposer une carte spatialement libre à explorer, ouvrant la voie aux mondes ouverts dans les jeux vidéo."
+    },
+    {
+    "id": "q14",
+    "question": "Quelle est la particularité de l'album 'The Commercial Album' de The Residents (1980) ?",
+    "answers": [
+        { "id": "q14_a1", "text": "Chaque chanson dure exactement une minute pour s’adapter aux formats radio commerciaux", "correct": true },
+        { "id": "q14_a2", "text": "L'album est composé de parodies de publicités de l'époque", "correct": false },
+        { "id": "q14_a3", "text": "Il n'est composé que de bruits capturés dans des centres commerciaux", "correct": false }
+    ],
+    "level": 7,
+    "already_asked": false,
+    "explanation": "L'album *The Commercial Album* de The Residents, paru en 1980, est un concept où chaque chanson dure exactement une minute, un format inspiré des publicités radio. Ce projet joue sur l'idée de musique commerciale et de consommation rapide."
+    },
+    {
+        "id": "q15",
+        "question": "Laquelle de ces propositions est une prérogative du Roi d'Angleterre ?",
+        "answers": [
+            { "id": "q15_a1", "text": "Perquisitionner une maison de son choix pour y loger", "correct": false },
+            { "id": "q15_a2", "text": "Posséder tous les esturgeons et baleines pêchés dans les eaux britanniques", "correct": true },
+            { "id": "q15_a3", "text": "Décider des noms des tempêtes qui frappent le pays", "correct": false }
+          ],
+          "level": 6,
+          "already_asked": false,
+          "explanation": "En vertu de la loi du Royaume-Uni, les baleines et les esturgeons sont considérés comme des 'poissons royaux' et appartiennent personnellement au monarque lorsqu'ils sont capturés."
+    },
+    {
+        "id": "q16",
+        "question": "De quelle ressource inhabituelle la Suède est-elle importatrice ?",
+        "answers": [
+            { "id": "q16_a1", "text": "De l'oxygène", "correct": false },
+            { "id": "q16_a2", "text": "Des Lego", "correct": false },
+            { "id": "q16_a3", "text": "Des déchets", "correct": true }
+        ],
+        "level": 7,
+        "already_asked": false,
+        "explanation": "La Suède importe des déchets pour les recycler et les utiliser dans la production d'énergie, une pratique qui fait partie de son modèle innovant de gestion durable."
+    },
+    {
+        "id": "q17",
+        "question": "Qu'est-ce que le Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu ?",
+        "answers": [
+            { "id": "q17_a1", "text": "Un poisson des abysses", "correct": false },
+            { "id": "q17_a2", "text": "Une colline en Nouvelle-Zélande", "correct": true },
+            { "id": "q17_a3", "text": "Un texte religieux malgache", "correct": false }
+        ],
+        "level": 7,
+        "already_asked": false,
+        "explanation": "On peut traduire ce nom par : 'Le sommet où Tamatea, l'homme aux gros genoux, celui qui dévalait, avalait et grimpait des montagnes, le voyageur invétéré, joua de sa flûte à son aimé'"
+    },
+    {
+        "id": "q18",
+        "question": "Que désigne la polythélie ?",
+        "answers": [
+            { "id": "q18_a1", "text": "Le fait d'avoir un nombre de mamelons supérieur à la normale", "correct": true },
+            { "id": "q18_a2", "text": "Une forme d'art ancien qui superpose une pluralité d'images", "correct": false },
+            { "id": "q18_a3", "text": "Le moment où une multitude d'éclairs apparaissent simultanément", "correct": false }
+        ],
+        "level": 7,
+        "already_asked": false,
+        "explanation": "La polythélie est une condition rare où une personne présente plus de deux tétons, généralement en raison d'une anomalie génétique."
+    },
+    {
+        "id": "q19",
+        "question": "Lequel de ces actes est illégal en Suisse ?",
+        "answers": [
+            { "id": "q19_a1", "text": "Poser un autocollant sur une boîte aux lettres", "correct": false },
+            { "id": "q19_a2", "text": "Marcher en montagne avec un chapeau rouge", "correct": false },
+            { "id": "q19_a3", "text": "Posséder un seul cochon d'Inde", "correct": true }
+        ],
+        "level": 6,
+        "already_asked": false,
+        "explanation": "En Suisse, il est illégal de posséder un seul cochon d'Inde car ces animaux sont sociaux et ont besoin de la compagnie d'un autre cochon d'Inde pour leur bien-être."
+    },
+    {
+        "id": "q20",
+        "question": "Quelle excentricité patronale est réelle ?",
+        "answers": [
+          { "id": "q20_a1", "text": "Le fondateur d'Ikea a nommé son fils Kallax et sa fille Frakta", "correct": false },
+          { "id": "q20_a2", "text": "Le fondateur de Pringles s'est fait enterrer dans une boîte de Pringles", "correct": true },
+          { "id": "q20_a3", "text": "Le fondateur d'Adidas s'est fait construire une voiture en forme de Stan Smith", "correct": false }
+        ],
+        "level": 7,
+        "already_asked": false,
+        "explanation": "Fredric Baur, le créateur des Pringles, a demandé que ses cendres soient placées dans une boîte de Pringles après sa mort, une demande excentrique mais réelle."
+    },
+    {
+        "id": "q21",
+        "question": "Dans quel pays trouve-t-on le plus de chameaux ?",
+        "answers": [
+          { "id": "q21_a1", "text": "L'Australie", "correct": true },
+          { "id": "q21_a2", "text": "L'Arabie Saoudite", "correct": false },
+          { "id": "q21_a3", "text": "Le Brésil", "correct": false }
+        ],
+        "level": 7,
+        "already_asked": false,
+        "explanation": "L'Australie possède la plus grande population de chameaux, avec environ un million de chameaux sauvages dans ses régions désertiques."
+    }    
 ]

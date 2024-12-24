@@ -23,9 +23,9 @@ import PlayerId from './PlayerId.vue';
 
     <div class="flex flex-col items-center bg-slate-100 p-10 py-5 rounded w-full text-center shadow-lg">
       <div class="flex w-full justify-between items-start mb-10">
-        <div>Question {{ props.question.level }}</div>
+        <div>Question {{ game.currentLevel }}</div>
         <player-id :player="player" big />
-        <div>{{ props.question.level * 100 }} points</div>
+        <div>{{ game.currentLevel * 100 }} points</div>
       </div>
 
       <h1 class="text-xl font-bold mb-5">{{ question.question }}</h1>
