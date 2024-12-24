@@ -34,7 +34,7 @@ function restart() {
           </div>
           <div class="flex gap-5">
             <div class="bg-indigo-900 text-slate-50 px-10 py-3 text-center rounded cursor-pointer hover:bg-indigo-800 mt-5 transition-all" @click.prevent="restart">Rejouer</div>
-            <div class="bg-indigo-900 text-slate-50 px-10 py-3 text-center rounded cursor-pointer hover:bg-indigo-800 mt-5 transition-all" @click.prevent="startGame">Retour au menu</div>
+            <div class="bg-indigo-900 text-slate-50 px-10 py-3 text-center rounded cursor-pointer hover:bg-indigo-800 mt-5 transition-all" @click.prevent="router.push('/')">Retour au menu</div>
           </div>
         </div>
       </div>

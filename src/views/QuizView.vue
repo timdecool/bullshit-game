@@ -55,6 +55,9 @@ function goHome() {
       </div>
       <div v-if="game.questions && player.getCurrentPlayer">
         <question-selector :question="game.currentQuestion" :player="player.getCurrentPlayer" />
+        <div class="p-3 px-10 w-full rounded bg-slate-100 mt-5 text-center" v-if="game.currentPhase === 2">
+          {{ game.currentQuestion.explanation }}
+        </div>
       </div>
     </div>
   </main>
