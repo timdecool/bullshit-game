@@ -22,6 +22,19 @@ export const usePlayerStore = defineStore('player', () => {
     }
 
     players.value.push(player)
+    savePlayers()
+  }
+
+  function importPlayers() {
+    players.value = JSON.parse(localStorage.getItem('players') || [])
+    currentId.value = JSON.parse(localStorage.getItem('currentId') || 0)
+    currentPlayer.value = JSON.parse(localStorage.getItem('currentPlayer') || null)
+  }
+
+  function savePlayers() {
+    localStorage.setItem('players', JSON.stringify(players.value))
+    localStorage.setItem('currentId', currentId.value)
+    localStorage.setItem('currentPlayer', JSON.stringify(currentPlayer.value))
   }
 
   function deletePlayer(id) {
@@ -53,6 +66,7 @@ export const usePlayerStore = defineStore('player', () => {
     }
     currentPlayer.value = id
     toggleAlreadyPlayed(id)
+    savePlayers()
   }
 
   function selectGuess(id, guess) {
@@ -101,5 +115,5 @@ export const usePlayerStore = defineStore('player', () => {
     return players.value.filter(player => !player.alreadyPlayed).length
   })
 
-  return { players, createPlayer, deletePlayer, addScore, addCorrectGuess, toggleAlreadyPlayed, pickNextPlayer, getCurrentPlayer, getOtherPlayers, currentId, selectGuess, selectPlayer, currentPlayer, getIsTrusted, getBestPlayer, getNumberOfRemainingPlayers, resetPlayers }
+  return { players, savePlayers, importPlayers, createPlayer, deletePlayer, addScore, addCorrectGuess, toggleAlreadyPlayed, pickNextPlayer, getCurrentPlayer, getOtherPlayers, currentId, selectGuess, selectPlayer, currentPlayer, getIsTrusted, getBestPlayer, getNumberOfRemainingPlayers, resetPlayers }
 })

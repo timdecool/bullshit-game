@@ -48,8 +48,6 @@ import PlayerId from './PlayerId.vue';
       <div class="py-2 mt-5 rounded bg-slate-200 text-neutral-900 w-full cursor-pointer" @click="game.pickNextQuestion()" v-else>
         {{ game.isRoundLost || game.currentLevel === 5 ? 'Prochaine manche':'Prochaine question'}}
       </div>
-
-
     </div>
 
   </section>

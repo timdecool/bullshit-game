@@ -209,7 +209,7 @@
         "answers": [
             { "id": "q18_a1", "text": "Le fait d'avoir un nombre de mamelons supérieur à la normale", "correct": true },
             { "id": "q18_a2", "text": "Une forme d'art ancien qui superpose une pluralité d'images", "correct": false },
-            { "id": "q18_a3", "text": "Le moment où une multitude d'éclairs apparaissent simultanément", "correct": false }
+            { "id": "q18_a3", "text": "Le moment où une multitude d'éclairs apparaissent simultanément dans le ciel", "correct": false }
         ],
         "level": 7,
         "already_asked": false,
@@ -250,5 +250,53 @@
         "level": 7,
         "already_asked": false,
         "explanation": "L'Australie possède la plus grande population de chameaux, avec environ un million de chameaux sauvages dans ses régions désertiques."
-    }    
+    },
+    {
+        "id": "q22",
+        "question": "Quel est le nom de l'art japonais consistant à réparer la céramique brisée avec de l'or, mettant en valeur ses cicatrices ?",
+        "answers": [
+            { "id": "q22_a1", "text": "Ikebana", "correct": false },
+            { "id": "q22_a2", "text": "Kintsugi", "correct": true },
+            { "id": "q22_a3", "text": "Shibori", "correct": false }
+        ],
+        "level": 3,
+        "already_asked": false,
+        "explanation": "Le Kintsugi est une technique traditionnelle japonaise qui transforme la céramique brisée en une œuvre d'art unique en utilisant de l'or pour souligner les fissures."
+    },
+    {
+        "id": "q23",
+        "question": "Quelle athlète a établi un record en courant un marathon en moins de 2 heures en 2019 ?",
+        "answers": [
+            { "id": "q23_a1", "text": "Haile Gebrselassie", "correct": false },
+            { "id": "q23_a2", "text": "Kenenisa Bekele", "correct": false },
+            { "id": "q23_a3", "text": "Eliud Kipchoge", "correct": true }
+        ],
+        "level": 4,
+        "already_asked": false,
+        "explanation": "Eliud Kipchoge a couru un marathon en 1 heure, 59 minutes et 40 secondes lors du défi INEOS 1:59 en 2019, bien que cet exploit ne soit pas homologué comme record officiel en raison des conditions spécifiques du défi."
+    },
+    {
+        "id": "q24",
+        "question": "Quelle est une des particularités notables du désert du Namib ?",
+        "answers": [
+            { "id": "q24_a1", "text": "Il contient une rivière souterraine qui coule à l’envers", "correct": false },
+            { "id": "q24_a2", "text": "Ses dunes peuvent émettre des sons semblables à des chants", "correct": false },
+            { "id": "q24_a3", "text": "Il abrite de mystérieux cercles de fées", "correct": true }
+        ],
+        "level": 4,
+        "already_asked": false,
+        "explanation": "Les cercles de fées, caractéristiques du désert du Namib, sont des zones circulaires dénudées entourées d'herbe. Leur origine reste un mystère pour les scientifiques."
+    },
+    {
+        "id": "q25",
+        "question": "Quel devait être le nom original de Buzz l'Éclair (Toy Story) ?",
+        "answers": [
+            { "id": "q25_a1", "text": "Space Jake", "correct": false },
+            { "id": "q25_a2", "text": "Lunar Larry", "correct": true },
+            { "id": "q25_a3", "text": "Rocket Mike", "correct": false }
+        ],
+        "level": 7,
+        "already_asked": false,
+        "explanation": "Le nom original envisagé pour Buzz l'Éclair était 'Lunar Larry', mais il a été changé avant la sortie du film, probablement pour un nom plus percutant et adapté à son personnage."
+    }
 ]

@@ -1,30 +1,30 @@
 [
     {
       "title": "alien avatar",
-      "src": "./src/assets/pictures/399583541_039b0f31-0d69-4d0b-ad47-7300989e700d.svg"
+      "src": "@/assets/pictures/399583541_039b0f31-0d69-4d0b-ad47-7300989e700d.svg"
     },
     {
       "title": "dog avatar",
-      "src": "./src/assets/pictures/399584000_b050c7f1-3710-4ac7-9852-9afb8f19dbcf.svg"
+      "src": "@/assets/pictures/399584000_b050c7f1-3710-4ac7-9852-9afb8f19dbcf.svg"
     },
     {
       "title": "astronaut avatar",
-      "src" :"./src/assets/pictures/400006264_3be3a7c1-2d8d-4007-9e47-1a4b0ab4f83f.svg"
+      "src" :"@/assets/pictures/400006264_3be3a7c1-2d8d-4007-9e47-1a4b0ab4f83f.svg"
     },
     {
       "title": "rhino avatar",
-      "src": "./src/assets/pictures/400006281_98458457-031d-415c-8503-acbb948f8e81.svg"
+      "src": "@/assets/pictures/400006281_98458457-031d-415c-8503-acbb948f8e81.svg"
     },
     {
       "title": "monkey avatar",
-      "src": "./src/assets/pictures/400006360_d67de721-4dcf-4eae-aa0d-0fcf8105ae9d.svg"
+      "src": "@/assets/pictures/400006360_d67de721-4dcf-4eae-aa0d-0fcf8105ae9d.svg"
     },
     {
       "title": "mouse avatar",
-      "src": "./src/assets/pictures/400006368_e2353759-c8cb-4bc2-bf61-90cb4921b6ca.svg"
+      "src": "@/assets/pictures/400006368_e2353759-c8cb-4bc2-bf61-90cb4921b6ca.svg"
     },
     {
       "title": "diver avatar",
-      "src": "./src/assets/pictures/400006404_f8849dee-fd5f-43f0-9648-9bea5c9763c4.svg"
+      "src": "@/assets/pictures/400006404_f8849dee-fd5f-43f0-9648-9bea5c9763c4.svg"
     }
   ]

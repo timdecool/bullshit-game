@@ -15,6 +15,7 @@ const player = usePlayerStore();
 
 onMounted(() => {
   game.importQuestions(questions)
+  player.importPlayers()
   // players.forEach(element => {
   //   player.createPlayer(element.name, element.profilePicture)
   // })
